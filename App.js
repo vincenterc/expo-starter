@@ -1,19 +1,10 @@
-import React from "react";
-import styled from "styled-components/native";
+import React from 'react'
+import styled from 'styled-components/native'
 
-export default function App() {
-  return (
-    <Container>
-      <Text>Expo starter!</Text>
-    </Container>
-  );
+import App from './src/app'
+
+const Root = () => {
+  return <App />
 }
 
-const Container = styled.View`
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-`;
-
-const Text = styled.Text``;
+export default Root
